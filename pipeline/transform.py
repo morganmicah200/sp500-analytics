@@ -6,7 +6,7 @@ def transform_market_data(df):
     - Converts date column to proper datetime format
     - Sorts by date ascending
     - Removes any duplicate dates
-    - Resets the index
+    - Resets the index cleanly
     """
     
     # Convert trade_date string to a proper datetime object
@@ -18,9 +18,8 @@ def transform_market_data(df):
     # Remove any duplicate dates keeping the first occurrence
     df = df.drop_duplicates(subset=["trade_date"])
     
-    print(f"Market data transformed: {len(df)} records ready to load")
+    print(f"Market data transformed : {len(df)} records ready to load")
     return df
-
 
 def transform_economic_data(df):
     """
@@ -40,7 +39,7 @@ def transform_economic_data(df):
     # Remove any duplicate entries
     df = df.drop_duplicates(subset=["indicator_name", "indicator_date"])
     
-    print(f"Economic data transformed: {len(df)} records ready to load")
+    print(f"Economic data transformed : {len(df)} records ready to load")
     return df
 
 

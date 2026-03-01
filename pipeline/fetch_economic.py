@@ -31,7 +31,7 @@ def fetch_economic_data():
             "series_id": series_id,      # the indicator code
             "api_key": FRED_API_KEY,
             "file_type": "json",
-            "limit": 100,                # fetch last 100 observations
+            "limit": 100,                # fetch last 100 recent observations
             "sort_order": "desc"         # most recent first
         }
         
