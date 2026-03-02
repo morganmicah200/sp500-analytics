@@ -13,7 +13,7 @@ def fetch_sp500_data():
     params = {
         "function": "TIME_SERIES_DAILY",
         "symbol": "SPY",          # SPY is the S&P 500 ETF ticker
-        "outputsize": "compact",  # compact returns last 100 data points
+        "outputsize": "compact",  # returns last 100 data points
         "apikey": ALPHA_VANTAGE_API_KEY
     }
     
