@@ -45,7 +45,7 @@ def run_pipeline():
     calculate_correlations()
 
     print("\n" + "=" * 50)
-    print("PIPELINE COMPLETE")
+    print("PIPELINE IS COMPLETE")
     print("=" * 50)
 
 if __name__ == "__main__":
