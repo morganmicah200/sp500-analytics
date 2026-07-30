@@ -1,6 +1,6 @@
 # S&P 500 Market Analytics Pipeline
 
-I built this project to strengthen my skills in data engineering and explore how Federal Reserve economic decisions actually affect stock market performance. The idea was simple — pull real financial data, store it properly, and see what the numbers say. The results were pretty eye opening.
+I built this project to strengthen my skills in data engineering and explore how the Federal Reserve's economic decisions actually affect stock market performance. The idea was simple — pull real financial data, store it properly, and see what the numbers say. The results were pretty eye opening.
 
 ## What It Does
 This is a full ETL pipeline that pulls real S&P 500 market data and Federal Reserve economic indicators from REST APIs, loads them into a MySQL database, and runs analysis to find trends and correlations between market performance and economic conditions. The whole thing runs with a single command.
